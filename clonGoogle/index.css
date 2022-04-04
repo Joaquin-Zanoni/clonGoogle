@@ -19,18 +19,26 @@ li{
     border-radius: 5px;
     
 }
+.acceso:hover{
+    cursor: pointer;
+}
 .puntos{
     height:25px;
+
 }
-ul{
-    list-style: none;
+ul{  
     
+    display: flex;
+    align-items: center;
+    list-style: none;
+   
   
 }
 
 nav{
     display: flex;
     justify-content: flex-end;
+    
     
 }
 .google{
@@ -76,7 +84,10 @@ nav{
     border-radius: 5px;
 
 }
-
+.botones input:hover{
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
 footer{
     width: 99%;
     position: absolute;
